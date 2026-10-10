@@ -1,6 +1,6 @@
 # QNX_INDIA_HACKATHON_HYD_2026_QNXHACK-HYD-019
 SDV BASEd MILITARY VECHICLE USING QNX
-# SDV Based Military Vehicle using QNX
+# SDV Based Military Tank using QNX
 
 ## 🛡️ QNX-Based Real-Time Military Ground Vehicle using SDV & V2V Communication
 
