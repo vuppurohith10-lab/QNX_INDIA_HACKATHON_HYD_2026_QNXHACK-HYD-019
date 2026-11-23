@@ -1,0 +1,10 @@
+stop
+no_entry
+speed_limit_30
+school_ahead
+pedestrian_crossing
+slippery_road
+right_hand_curve
+give_way
+no_parking
+narrow_road_ahead

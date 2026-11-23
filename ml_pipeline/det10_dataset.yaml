@@ -1,0 +1,28 @@
+# ============================================================================
+# YOLO DATASET CONFIGURATION: det10 (10 Essential Traffic Signs)
+# QNX Global E-Hack 2026 - Autonomous SDV Military Tank & Ground Vehicle
+# ============================================================================
+
+# Dataset Root Path (Adjust for local or cloud GPU environment)
+path: /home/rohith/dataset_det10  # or /content/dataset_det10 on Google Colab
+
+# Train, Validation, and Test image paths (relative to 'path')
+train: images/train
+val:   images/val
+test:  images/val
+
+# Number of Classes
+nc: 10
+
+# Class Names (det10)
+names:
+  0: stop                  # Regulatory: Mandatory Complete Halt
+  1: no_entry              # Regulatory: Wrong-Way / Prohibited Access
+  2: speed_limit_30        # Regulatory: Max Speed 30 km/h Restriction
+  3: school_ahead          # Cautionary: School Zone Caution (25 km/h)
+  4: pedestrian_crossing   # Cautionary: Pedestrian Crosswalk (Yield)
+  5: slippery_road         # Cautionary: Low-Friction Surface (Traction Control)
+  6: right_hand_curve      # Cautionary: Sharp Right Bend Ahead
+  7: give_way              # Regulatory: Yield Priority at Intersection
+  8: no_parking            # Regulatory: Continuous Motion / No Stopping
+  9: narrow_road_ahead     # Cautionary: Roadway Constriction (Lane Centering)

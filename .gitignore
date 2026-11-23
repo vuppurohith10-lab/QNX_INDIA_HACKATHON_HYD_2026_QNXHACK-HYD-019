@@ -1,0 +1,14 @@
+# Build artifacts
+build/
+*.o
+*.so
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+venv/
+runs_production/
+runs_det10/

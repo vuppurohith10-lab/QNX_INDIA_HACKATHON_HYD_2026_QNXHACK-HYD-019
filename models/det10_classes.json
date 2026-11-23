@@ -1,0 +1,104 @@
+{
+  "classes": [
+    {
+      "id": 0,
+      "name": "stop",
+      "display_name": "Stop Sign",
+      "category": "Regulatory / Mandatory",
+      "vehicle_action": "EMERGENCY_STOP",
+      "speed_duty_pct": 0,
+      "led_indicator": "RED_LASER",
+      "description": "Executes immediate complete halt at line; holds active brake until path is clear."
+    },
+    {
+      "id": 1,
+      "name": "no_entry",
+      "display_name": "No Entry",
+      "category": "Regulatory / Mandatory",
+      "vehicle_action": "HALT_AND_REVERSE",
+      "speed_duty_pct": 0,
+      "led_indicator": "RED",
+      "description": "Prohibited roadway; halts forward motion, warns control room, initiates reverse maneuver."
+    },
+    {
+      "id": 2,
+      "name": "speed_limit_30",
+      "display_name": "Speed Limit 30",
+      "category": "Regulatory / Mandatory",
+      "vehicle_action": "ENFORCE_SPEED_CAP",
+      "speed_duty_pct": 30,
+      "led_indicator": "GREEN",
+      "description": "Limits maximum vehicle throttle/speed to 30% duty cycle for compliance with 30 km/h zone."
+    },
+    {
+      "id": 3,
+      "name": "school_ahead",
+      "display_name": "School Ahead",
+      "category": "Cautionary / Warning",
+      "vehicle_action": "CAUTION_SLOW_ZONE",
+      "speed_duty_pct": 25,
+      "led_indicator": "BLUE",
+      "description": "Approaching school zone; decelerates vehicle to 25%, activates blue caution flasher."
+    },
+    {
+      "id": 4,
+      "name": "pedestrian_crossing",
+      "display_name": "Pedestrian Crossing",
+      "category": "Cautionary / Warning",
+      "vehicle_action": "YIELD_PEDESTRIAN",
+      "speed_duty_pct": 20,
+      "led_indicator": "BLUE",
+      "description": "Pedestrian crossing ahead; slows to 20%, prepares to brake if ToF detects obstacle."
+    },
+    {
+      "id": 5,
+      "name": "slippery_road",
+      "display_name": "Slippery Road",
+      "category": "Cautionary / Warning",
+      "vehicle_action": "TRACTION_CONTROL",
+      "speed_duty_pct": 20,
+      "led_indicator": "BLUE",
+      "description": "Reduced surface friction; reduces acceleration jerk, limits torque and caps duty to 20%."
+    },
+    {
+      "id": 6,
+      "name": "right_hand_curve",
+      "display_name": "Right Hand Curve",
+      "category": "Cautionary / Warning",
+      "vehicle_action": "SKID_STEER_RIGHT_BIAS",
+      "speed_duty_pct": 35,
+      "led_indicator": "BLUE",
+      "description": "Sharp right bend ahead; activates differential tank drive steering bias (Left: 35%, Right: 15%)."
+    },
+    {
+      "id": 7,
+      "name": "give_way",
+      "display_name": "Give Way / Yield",
+      "category": "Regulatory / Mandatory",
+      "vehicle_action": "YIELD_AND_ASSESS",
+      "speed_duty_pct": 15,
+      "led_indicator": "BLUE",
+      "description": "Yield right of way; slows to 15%, scans intersection with ToF sensor for 2 seconds before proceeding."
+    },
+    {
+      "id": 8,
+      "name": "no_parking",
+      "display_name": "No Parking",
+      "category": "Regulatory / Mandatory",
+      "vehicle_action": "CRUISE_MAINTAIN",
+      "speed_duty_pct": 45,
+      "led_indicator": "GREEN",
+      "description": "No stopping zone; prohibits vehicle idle stop when roadway is clear, maintains continuous cruising."
+    },
+    {
+      "id": 9,
+      "name": "narrow_road_ahead",
+      "display_name": "Narrow Road Ahead",
+      "category": "Cautionary / Warning",
+      "vehicle_action": "CENTER_LANE_SLOW",
+      "speed_duty_pct": 25,
+      "led_indicator": "BLUE",
+      "description": "Roadway narrows; reduces speed to 25% duty, centers vehicle heading to prevent side scraping."
+    }
+  ]
+}
